@@ -1,0 +1,166 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Privacy Policy for Autodesk Salesforce Enhancer Chrome extension — data collection, storage, and user choices.">
+  <title>Privacy — Autodesk Salesforce Enhancer</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="site-header-inner">
+      <a class="brand" href="home.html">Autodesk Salesforce Enhancer</a>
+      <nav class="nav" aria-label="Site">
+        <a href="home.html">Home</a>
+        <a href="support.html">Support</a>
+        <a href="privacy.html" class="active">Privacy</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <span class="badge">Privacy</span>
+      <h1>Privacy Policy</h1>
+      <p>How Autodesk Salesforce Enhancer handles information. Last updated: 26 June 2026.</p>
+    </section>
+
+    <section class="card">
+      <h2>1. Introduction</h2>
+      <p>Autodesk Salesforce Enhancer (“the Extension”) is a Chrome extension for Autodesk employees using Salesforce Lightning, Autodesk Knowledge, and (optionally) ChatGPT for email drafting assistance.</p>
+      <p>The Extension <strong>does not</strong> sell user data, show ads, use analytics SDKs, or operate a developer-controlled backend that receives Salesforce case content or email bodies.</p>
+    </section>
+
+    <section class="card">
+      <h2>2. Who may use the Extension</h2>
+      <p>Use is limited to individuals who complete employee verification with a personal <code>@autodesk.com</code> work email. Shared or generic mailboxes (for example <code>customersupport@autodesk.com</code>) are rejected. Verification data is stored <strong>only on your device</strong>.</p>
+    </section>
+
+    <section class="card">
+      <h2>3. Single purpose</h2>
+      <p>The Extension has one purpose: <strong>Salesforce and Knowledge productivity for Autodesk support agents</strong> — including copy tools, case-tab validation UI, attachment highlighting, and optional user-initiated ChatGPT email assist.</p>
+    </section>
+
+    <section class="card">
+      <h2>4. Information stored on your device</h2>
+      <table>
+        <tr><th>Data type</th><th>Storage</th><th>Purpose</th><th>Sent to developer?</th></tr>
+        <tr><td>Verified employee email</td><td><code>chrome.storage.local</code></td><td>Employee access gate</td><td>No</td></tr>
+        <tr><td>Feature settings</td><td><code>chrome.storage.local</code></td><td>Your preferences</td><td>No</td></tr>
+        <tr><td>Email AI handoff state</td><td><code>chrome.storage.session</code></td><td>Salesforce ↔ ChatGPT flow</td><td>No</td></tr>
+      </table>
+    </section>
+
+    <section class="card">
+      <h2>5. Information processed temporarily</h2>
+      <table>
+        <tr><th>Data</th><th>When</th><th>Purpose</th><th>Sent to developer?</th></tr>
+        <tr><td>Clipboard / selection</td><td>When you trigger copy or Email AI</td><td>Copy articles; email selections</td><td>No</td></tr>
+        <tr><td>Page DOM</td><td>On allowed Autodesk / ChatGPT pages</td><td>Render UI for features you use</td><td>No</td></tr>
+      </table>
+      <p>The developer does not receive, log, or store Salesforce cases, customer data, or email bodies on any server.</p>
+    </section>
+
+    <section class="card">
+      <h2>6. Chrome Web Store data-use disclosure</h2>
+      <table>
+        <tr><th>Category</th><th>Collected?</th><th>Notes</th></tr>
+        <tr><td>Personally identifiable information</td><td>Yes</td><td>Work email — local device only</td></tr>
+        <tr><td>Health information</td><td>No</td><td></td></tr>
+        <tr><td>Financial / payment information</td><td>No</td><td></td></tr>
+        <tr><td>Authentication credentials</td><td>No</td><td>No passwords stored</td></tr>
+        <tr><td>Personal communications</td><td>No</td><td>Not sent to developer</td></tr>
+        <tr><td>Location</td><td>No</td><td></td></tr>
+        <tr><td>Web history / user activity analytics</td><td>No</td><td></td></tr>
+        <tr><td>Website content (to developer)</td><td>No</td><td>DOM read only on allowed sites</td></tr>
+      </table>
+    </section>
+
+    <section class="card">
+      <h2>7. Information we do not collect</h2>
+      <ul>
+        <li>Passwords, MFA codes, or Autodesk session tokens</li>
+        <li>OpenAI / ChatGPT API keys</li>
+        <li>Advertising or analytics identifiers</li>
+        <li>Case numbers, customer PII, or email content on developer servers</li>
+      </ul>
+    </section>
+
+    <section class="card">
+      <h2>8. Sharing and third parties</h2>
+      <p><strong>The Extension developer does not receive your data.</strong> When you use Email AI, selected text is copied to <strong>your</strong> ChatGPT tab. OpenAI’s and Salesforce’s privacy policies apply to those sites. No data is sold to third parties or data brokers.</p>
+    </section>
+
+    <section class="card">
+      <h2>9. Host permissions</h2>
+      <table>
+        <tr><th>Host</th><th>Reason</th></tr>
+        <tr><td><code>autodesk.lightning.force.com</code>, <code>autodesk.my.salesforce.com</code></td><td>Salesforce Lightning</td></tr>
+        <tr><td><code>*.vf.force.com</code>, <code>*.visualforce.com</code></td><td>Knowledge / VF iframes</td></tr>
+        <tr><td><code>help.autodesk.com</code></td><td>Knowledge plugin</td></tr>
+        <tr><td><code>accounts.autodesk.com</code>, <code>profile.autodesk.com</code>, <code>www.autodesk.com</code></td><td>Employee verification</td></tr>
+        <tr><td><code>chatgpt.com</code>, <code>chat.openai.com</code>, <code>auth.openai.com</code></td><td>Optional Email AI</td></tr>
+      </table>
+      <p>The Extension does not request <code>&lt;all_urls&gt;</code>.</p>
+    </section>
+
+    <section class="card">
+      <h2>10. Chrome API permissions</h2>
+      <table>
+        <tr><th>Permission</th><th>Why</th></tr>
+        <tr><td><code>storage</code></td><td>Save settings and sign-in state locally</td></tr>
+        <tr><td><code>clipboardRead</code> / <code>clipboardWrite</code></td><td>User-initiated copy/paste</td></tr>
+        <tr><td><code>tabs</code></td><td>Return from ChatGPT to Salesforce</td></tr>
+        <tr><td><code>windows</code></td><td>Auth popup; optional AutoCopy window</td></tr>
+        <tr><td><code>scripting</code></td><td>Page-world bridges for TinyMCE / ChatGPT (bundled scripts only)</td></tr>
+        <tr><td><code>alarms</code></td><td>ChatGPT paste retry; idle popup close</td></tr>
+      </table>
+    </section>
+
+    <section class="card">
+      <h2>11. Remote code</h2>
+      <p><strong>No.</strong> All Extension code is bundled in the Chrome Web Store package. External websites are not used to download or execute Extension logic.</p>
+    </section>
+
+    <section class="card">
+      <h2>12. Email AI (optional)</h2>
+      <ol>
+        <li>You select text in a Salesforce email composer.</li>
+        <li>The Extension copies that selection and opens ChatGPT in a popup you control.</li>
+        <li>You edit content in ChatGPT under OpenAI’s terms.</li>
+        <li>You click Salesforce in ChatGPT to paste the reply into your email selection.</li>
+      </ol>
+    </section>
+
+    <section class="card">
+      <h2>13. Retention and your choices</h2>
+      <ul>
+        <li><strong>Sign out</strong> — clears stored employee verification</li>
+        <li><strong>Reset</strong> in options — restores default toggles</li>
+        <li><strong>Uninstall</strong> — removes all local Extension data</li>
+      </ul>
+    </section>
+
+    <section class="card">
+      <h2>14. Children</h2>
+      <p>Not directed at children; intended for Autodesk employees in a work context.</p>
+    </section>
+
+    <section class="card">
+      <h2>15. Changes</h2>
+      <p>Material updates will be posted at this URL. The Chrome Web Store listing may be updated when required.</p>
+    </section>
+
+    <section class="card">
+      <h2>16. Contact</h2>
+      <p>Support and privacy questions:</p>
+      <p><a class="btn" href="https://github.com/hiteshjangraautodesk/Autodesk-Salesforce-Enhancer-Public-Docs/issues">GitHub Issues</a></p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>Autodesk Salesforce Enhancer · <a href="home.html">Home</a> · <a href="support.html">Support</a></p>
+  </footer>
+</body>
+</html>
